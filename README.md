@@ -15,7 +15,7 @@ This portfolio website showcases my skills, projects, and experience in the worl
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/alexu8007/Portfolio.git
+git clone https://github.com/anash3420/Portfolio.git
 cd Portfolio
 npm install
 npm start
