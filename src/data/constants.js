@@ -15,6 +15,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1N6yVdybmehehLPo93oNo7oVlc_xv-hVA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/anashshelat/",
   insta: "https://www.instagram.com/anashhhh._",
+  git: "https://github.com/anash3420"
 };
 
 export const skills = [
