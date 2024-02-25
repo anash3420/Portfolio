@@ -86,7 +86,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Alex Ungureanu</Logo>
+        <Logo>Anash Shelat</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -99,7 +99,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Alex Ungureanu. All rights reserved.
+          &copy; 2024 Anash Shelat. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

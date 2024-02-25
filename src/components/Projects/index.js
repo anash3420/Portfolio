@@ -1,19 +1,17 @@
 import React from 'react'
-import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
+import { Container, Wrapper, Title, Desc, CardContainer } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
 
 const Projects = ({openModal,setOpenModal}) => {
-  const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects">
       <Wrapper>
         <Title className='FadeInLeft'>Projects</Title>
-        <Desc className='FadeInLeft'>
+        <Desc className='FadeInLeft' style={{marginBottom: 30}}>
            Here are some of the projects I have worked on. From Full stack to machine learning, I have worked on numerous small and large scale projects.
         </Desc>
-        <ToggleButtonGroup className='FadeInLeft'>
+        {/* <ToggleButtonGroup className='FadeInLeft'>
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
@@ -37,14 +35,9 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>Machine learning</ToggleButton>
           }
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
         <CardContainer className='FadeInLeft' >
-          {toggle === 'all' && projects
-            .map((project) => (
-              <ProjectCard  project={project} openModal={openModal} setOpenModal={setOpenModal}/>
-            ))}
           {projects
-            .filter((item) => item.category == toggle)
             .map((project) => (
               <ProjectCard  project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}

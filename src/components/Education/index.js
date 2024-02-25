@@ -9,7 +9,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { education, experiences } from '../../data/constants';
 import EducationCard from '../Cards/EducationCard';
-import ScrollReveal from 'scrollreveal';
+// import ScrollReveal from 'scrollreveal';
 
 const Container = styled.div`
     display: flex;
@@ -84,7 +84,7 @@ const index = () => {
             <Wrapper>
                 <Title className='FadeInLeftt' >Education</Title>
                 <Desc className='FadeInRight' >
-                     My education, reigning from the prestigous University of Waterloo, has provided me with a strong foundation in computer science and software engineering.
+                     My education has provided me with a strong foundation in computer science and software engineering.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

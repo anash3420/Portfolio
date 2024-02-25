@@ -61,9 +61,9 @@ const Desc = styled.div`
     }
 `;
 
-const Rapper = styled.div`
-background-color="#171721"
-`;
+// const Rapper = styled.div`
+// background-color="#171721"
+// `;
 const TimelineSection = styled.div`
     width: 100%;
     max-width: 1000px;
@@ -85,7 +85,7 @@ const index = () => {
             <Wrapper>
                 <Title className='FadeInLeft'>Experience</Title>
                 <Desc className='FadeInLeft'>
-                    My work experience as a Chief Technology Officer and working on different companies and projects.
+                    My work experience at different companies and projects.
                 </Desc>
                 <TimelineSection >
                     <Timeline>
